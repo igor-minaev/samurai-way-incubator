@@ -9,22 +9,3 @@
             "n c";
 
 }
-
-.header {
-    grid-area: h;
-    background-color: green;
-}
-
-.header img {
-    width: 30px;
-}
-
-.nav {
-    grid-area: n;
-    background-color: #007180;
-}
-
-.content {
-    grid-area: c;
-    background-color: #3a0080;
-}
