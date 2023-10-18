@@ -9,3 +9,9 @@
             "n c";
 
 }
+
+.app-wrapper-content{
+    grid-area: c;
+    background-color: #5a05b9;
+}
+
