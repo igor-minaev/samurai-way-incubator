@@ -7,12 +7,9 @@
     padding: 10px;
 }
 
-.dialogsItems {
 
-}
-
-.dialog a .active{
-    color:gold;
+.dialog a .active {
+    color: gold;
 }
 
 .messages {
@@ -20,10 +17,10 @@
 }
 
 .messages .message {
-
+    color: white;
 }
 
-.active{
+.active {
 
 }
 
