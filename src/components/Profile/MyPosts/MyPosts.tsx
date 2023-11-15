@@ -6,7 +6,6 @@ type MyPostsPropsType = {
     posts: PostType[]
 }
 const MyPosts = (props: MyPostsPropsType) => {
-
     const postsElements = props.posts.map(p => {
         return <Post key={p.id} id={p.id} message={p.message} likeCounts={p.likeCounts}/>
     })
