@@ -12,3 +12,31 @@
 .item a.active {
     color: gold
 }
+
+.sidebar h1{
+    text-align: center;
+    color:white;
+    font-style: italic;
+}
+
+.friends{
+    display: flex;
+    justify-content: space-between;
+}
+
+.friend{
+    text-align: center;
+    width: 55px;
+}
+
+.friend img{
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid gold;
+}
+
+.name{
+    font-size: 14px;
+    color:gold;
+}
+

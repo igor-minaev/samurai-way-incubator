@@ -7,6 +7,10 @@
     padding: 10px;
 }
 
+.dialog{
+    margin-bottom: 5px;
+}
+
 .dialog a {
     color: white;
     text-decoration: none;
@@ -19,6 +23,7 @@
 .dialog img {
     width: 50px;
     border-radius: 50%;
+    margin-right: 5px;
 }
 
 
