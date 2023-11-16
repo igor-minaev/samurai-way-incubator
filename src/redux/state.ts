@@ -22,9 +22,14 @@ export type DialogsPageType = {
 
 }
 
+export type SidebarType = {
+    friends: DialogType[]
+}
+
 export type StateType = {
     profilePage: ProfilePageType
     dialogsPage: DialogsPageType
+    sidebar: SidebarType
 }
 
 
@@ -49,7 +54,12 @@ export const state: StateType = {
             {id: '2', message: 'How are you?'},
             {id: '3', message: 'Yo'}
         ]
+    },
+    sidebar: {
+        friends: [
+            {id: '1', name: 'Dimych'},
+            {id: '2', name: 'Andrey'},
+            {id: '3', name: 'Sveta'}
+        ]
     }
-
-
 }

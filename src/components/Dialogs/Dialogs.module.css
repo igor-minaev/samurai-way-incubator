@@ -16,6 +16,11 @@
     color: gold;
 }
 
+.dialog img {
+    width: 50px;
+    border-radius: 50%;
+}
+
 
 .messages {
     padding: 10px;
