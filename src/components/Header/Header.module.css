@@ -1,9 +1,15 @@
 .header {
     grid-area: h;
     background-color: green;
+    display:flex;
+    align-items: center;
+
 }
 
 .header img {
-    width: 30px;
+    margin-left: 10px;
+    max-width: 40px;
+    max-height: 40px;
+    border-radius: 50%;
 }
 
